@@ -19,7 +19,7 @@ component extends = 'testbox.system.BaseSpec' {
        it('returns section sepcfic settings from ini', function () {
         var config = new config.Settings(); 
         var result =  config.getValue('passwordFromEmail','clientportal'); 	
-        expect(result).toBe('admin@tutuka.com');
+        expect(result).toBe('rohith@test.com');
       });   
     });
   }
